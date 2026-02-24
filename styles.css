@@ -5,13 +5,13 @@ body { font-family: system-ui, Arial, sans-serif; margin: 0; background: #f6f7fb
 .row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
 .label { display:block; margin-top: 10px; font-weight: 600; }
 input { width: 100%; padding: 10px 12px; border: 1px solid #d8dbe6; border-radius: 10px; margin-top: 6px; }
-.btn { padding: 10px 14px; border: 0; border-radius: 10px; background: #333; color: #fff; cursor: pointer; }
+.btn { padding: 10px 14px; border: 0; background: #333; color: #fff; cursor: pointer; font-weight: 700; border-radius: 14px;}
 .btn:hover { filter: brightness(0.92); }
 .hint { color: #555; margin: 12px 0 0; }
 .list { list-style: none; padding: 0; margin: 0; }
 .item { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border: 1px solid #e6e8f2; border-radius: 10px; margin-top: 10px; }
 .badge { font-size: 12px; padding: 4px 8px; border-radius: 999px; background: #eef0ff; }
 .actions { display: flex; gap: 8px; }
-.small { padding: 8px 10px; border-radius: 10px; border: 0; cursor: pointer; color: white; background: #555; }
+.small { padding: 8px 10px; border-radius: 10px; border: 0; cursor: pointer; color: white; background: #555; font-weight: 700;}
 #addBtn { background: #c0392b; }     /* rojo */
 #deleteBtn { background: #1f6feb; }  /* azul */
